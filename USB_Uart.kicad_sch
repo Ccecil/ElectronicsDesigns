@@ -1530,7 +1530,7 @@
   (symbol (lib_id "power:GND") (at 36.83 27.94 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3f38e86c-bb7e-4e76-a503-06d1e902ac1b)
-    (property "Reference" "#PWR?" (id 0) (at 36.83 34.29 0)
+    (property "Reference" "#PWR0102" (id 0) (at 36.83 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 39.37 30.48 0))
@@ -1688,7 +1688,7 @@
   (symbol (lib_id "Device:C_Small") (at 36.83 25.4 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7ce2bf31-9258-4de9-bb68-9dc6bb16b718)
-    (property "Reference" "C?" (id 0) (at 39.37 25.4 0)
+    (property "Reference" "C2" (id 0) (at 39.37 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uf" (id 1) (at 38.1 27.94 0)
@@ -1948,6 +1948,9 @@
     (path "/f57592b8-297f-440b-9400-0803ec832e8c"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
+    (path "/3f38e86c-bb7e-4e76-a503-06d1e902ac1b"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
     (path "/ee7a20e8-ec92-4b87-abf0-ac524355a94d"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
@@ -1966,17 +1969,14 @@
     (path "/7585ee01-827e-40b8-bd5d-b5295a1ef61e"
       (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
     )
-    (path "/3f38e86c-bb7e-4e76-a503-06d1e902ac1b"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/7f26665a-402a-4dfa-86e6-1904a0a621c3"
       (reference "C1") (unit 1) (value "1uf") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
+    (path "/7ce2bf31-9258-4de9-bb68-9dc6bb16b718"
+      (reference "C2") (unit 1) (value "4.7uf") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/dd192b81-22be-462a-b311-808b99931d1f"
       (reference "C3") (unit 1) (value "4.7uf") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/7ce2bf31-9258-4de9-bb68-9dc6bb16b718"
-      (reference "C?") (unit 1) (value "4.7uf") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/4e9b2216-3ad9-48cf-a9d1-e8ab2fe7aee9"
       (reference "D1") (unit 1) (value "Blue") (footprint "LED_SMD:LED_0603_1608Metric")
